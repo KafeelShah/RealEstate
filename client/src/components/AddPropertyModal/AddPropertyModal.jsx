@@ -55,14 +55,6 @@ const AddPropertyModal = ({ opened, setOpened }) => {
               setPropertyDetails={setPropertyDetails}
             />
           </Stepper.Step>
-          <Stepper.Step label="Images" description="Upload ">
-            <UploadImage
-              prevStep={prevStep}
-              nextStep={nextStep}
-              propertyDetails={propertyDetails}
-              setPropertyDetails={setPropertyDetails}
-            />
-          </Stepper.Step>
           <Stepper.Step label="Basics" description="Details">
             <BasicDetails
               prevStep={prevStep}

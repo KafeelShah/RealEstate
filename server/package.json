@@ -8,6 +8,9 @@
     "start": "nodemon index.js",
     "postinstall": "prisma generate"
   },
+  "engines": {
+    "node": "20"
+  },
   "dependencies": {
     "@prisma/client": "^4.16.2",
     "cookie-parser": "^1.4.6",

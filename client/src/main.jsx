@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
      authorizationParams={{
       redirect_uri: "https://real-estate-hojd.vercel.app/"
      }}
-     audience="https://real-estate-silk-xi-63.vercel.app/"
+     audience="http://localhost:8000"
      scope="openid profile email"
     >
       <App />
